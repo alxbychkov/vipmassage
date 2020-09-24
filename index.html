@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Mona Lisa</title>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"
+                            style="background: url('icon/close.png') no-repeat; background-size: contain;"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="d-flex flex-column align-items-center justify-content-around">
+                        <h3 class="modal-title" id="exampleModalLongTitle">Записаться на <span
+                                class="span-pink">массаж</span> </h3>
+                        <input type="text" class="form-control" placeholder="Имя">
+                        <input type="tel" class="form-control" placeholder="Номер телефона">
+                        <button type="submit" class="btn btn-outline-light">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- HEADER -->
+    <section class="section head" style="background: url('img/back0.png') no-repeat; background-size: cover;">
+        <!-- HEAD -->
+        <header class="header">
+            <div class="container">
+                <div class="header-top row justify-content-between">
+                    <div class="col-xl-6 col-lg-4 col-md-3 col-sm-4 col-1">
+                        <a href="/" class="logo"
+                            style="background: url('icon/logo.png') no-repeat; background-size: contain;"></a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-8 row language-block">
+                        <p> язык:
+                            <a href="" class="active">RU</a> |
+                            <a href="" class="">Eng</a> |
+                            <a href="" class="">KZ</a>
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-5  row phone-block">
+                        <a href="tel:+77058484444" class="phone">+7 705 848 44 44</a>
+                        <a class="btn btn-outline-danger text-white" data-toggle="modal"
+                            data-target="#ModalCenter">Оставить заявку</a>
+                    </div>
+                    <div class="col-sm-2 col-3 burger">
+                            <div class="burger-logo">
+                                <div class="burger-line top"></div>
+                                <div class="burger-line middle"></div>
+                                <div class="burger-line bottom"></div>
+                            </div>
+                    </div>
+                </div>
+                <nav class="nav row">
+                    <a class="nav-link active" href="pages/girls.html">Девушки</a>
+                    <a class="nav-link" href="pages/services.html">Цены и акции</a>
+                    <a class="nav-link" href="pages/interiers.html">Интерьеры</a>
+                    <a class="nav-link" href="pages/vacancies.html">Вакансии</a>
+                    <a class="nav-link" href="pages/responses.html">Отзывы</a>
+                    <a class="nav-link" href="pages/contacts.html">Контакты</a>
+                </nav>
+            </div>
+        </header>
+
+        <header class="header header-scroll">
+            <div class="container">
+                <div class="header-top row justify-content-end">
+                    <div class="row phone-block">
+                        <a href="tel:+77058484444" class="phone">+7 705 848 44 44</a>
+                        <a class="btn btn-outline-danger text-white ml-5 mr-3" data-toggle="modal"
+                            data-target="#ModalCenter">Оставить заявку</a>
+                    </div>
+                    <div class="col-sm-2 col-3 burger">
+                            <div class="burger-logo">
+                                <div class="burger-line top"></div>
+                                <div class="burger-line middle"></div>
+                                <div class="burger-line bottom"></div>
+                            </div>
+                    </div>
+                </div>
+                <nav class="nav row">
+                    <a class="nav-link active" href="pages/girls.html">Девушки</a>
+                    <a class="nav-link" href="pages/services.html">Цены и акции</a>
+                    <a class="nav-link" href="pages/interiers.html">Интерьеры</a>
+                    <a class="nav-link" href="pages/vacancies.html">Вакансии</a>
+                    <a class="nav-link" href="pages/responses.html">Отзывы</a>
+                    <a class="nav-link" href="pages/contacts.html">Контакты</a>
+                </nav>
+            </div>
+        </header>
+        <!-- HEAD -->
+
+        <!-- MENU -->
+        <div class="menu">
+            <div class="container">
+                <nav class="nav d-flex flex-column">
+                    <a class="nav-link active" href="pages/girls.html">Девушки</a>
+                    <a class="nav-link" href="pages/services.html">Цены и акции</a>
+                    <a class="nav-link" href="pages/interiers.html">Интерьеры</a>
+                    <a class="nav-link" href="pages/vacancies.html">Вакансии</a>
+                    <a class="nav-link" href="pages/responses.html">Отзывы</a>
+                    <a class="nav-link" href="pages/contacts.html">Контакты</a>
+                </nav>
+                <div class="col menu-footer">
+                    <a href="tel:+77058484444" class="phone">+7 705 848 44 44</a>
+                    <a class="btn btn-outline-danger text-white" data-toggle="modal" data-target="#ModalCenter">Оставить
+                        заявку</a>
+                    <div class="language">
+                        язык:
+                        <a href="" class="active">RU</a> |
+                        <a href="" class="">Eng</a> |
+                        <a href="" class="">KZ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MENU -->
+
+        <div class="container">
+            <div class="row massage-button">
+                <div class="offset-lg-1 col-lg-6 col-12 text-white main-screen_content">
+                    <h1><span class="span-pink">Боди</span> Массаж в&nbsp;Астане</h1>
+                    <a class="btn btn-outline-danger text-white" data-toggle="modal"
+                        data-target="#ModalCenter">Записаться на массаж</a>
+                </div>
+                <div class="col-lg-5 col-12 d-flex align-items-end justify-content-center">
+                    <img src="img/girl.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER -->
+
+    <!-- CAROUSSEL -->
+    <section class="caroussel section-item">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="text-white">Наши мастера</h2>
+            </div>
+            <div class="owl-carousel owl-theme owl-loaded">
+                <a href=""><img src="girls/girl7.png" alt=""></a>
+                <a href=""><img src="girls/girl8.png" alt=""></a>
+                <a href=""><img src="girls/girl9.png" alt=""></a>
+                <a href=""><img src="girls/girl6.png" alt=""></a>
+                <a href=""><img src="girls/girl1.png" alt=""></a>
+                <a href=""><img src="girls/girl3.png" alt=""></a>
+            </div>
+            <div class="row justify-content-center">
+                <a href="pages/girls.html" class="btn btn-outline-danger text-white">Посмотреть всех матеров</a>
+            </div>
+        </div>
+    </section>
+    <!-- CAROUSSEL -->
+
+    <!-- SERVICE -->
+    <section class="services">
+        <div class="row">
+            <div class="col-12 col-md-6 services-item">
+                <a href="pages/girls.html"
+                    style="background: url(img/image1.png) no-repeat; background-size: cover; background-position: center">
+                    <span>Девушки</span>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 services-item">
+                <a href="pages/services.html"
+                    style="background: url(img/image2.png) no-repeat; background-size: cover; background-position: center">
+                    <span>Спецпредложения</span>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 services-item">
+                <a href="pages/contacts.html"
+                    style="background: url(img/image3.png) no-repeat; background-size: cover; background-position: center">
+                    <span>Контакты</span>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 services-item">
+                <a href="pages/interiers.html"
+                    style="background: url(img/image4.png) no-repeat; background-size: cover; background-position: center">
+                    <span>Интерьеры</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICE -->
+
+    <!-- SECTION-ITEM -->
+    <section class="section-item">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="text-white">Наши преимущества</h2>
+            </div>
+            <div class="row offset-lg-1 justify-content-center section-item-body">
+                <div class="row col-12 col-md-6 text-white align-items-center mb-5">
+                    <span class="icon mr-3"
+                        style="background: url(icon/romantic.png) no-repeat; background-size: contain; background-position: center;"></span>
+                    <span class="col-8 text">
+                        Каждая наша девушка обладает сногшибательным телом
+                        и потрясающей техникой массажа
+                    </span>
+                </div>
+                <div class="row col-12 col-md-6 text-white mb-5 align-items-center">
+                    <span class="icon mr-3"
+                        style="background: url(icon/delivery.png) no-repeat; background-size: contain; background-position: center;"></span>
+                    <span class="col-8 text">
+                        Каждая наша девушка обладает сногшибательным телом
+                        и потрясающей техникой массажа
+                    </span>
+                </div>
+                <div class="row col-12 col-md-6 text-white mb-5 align-items-center">
+                    <span class="icon mr-3"
+                        style="background: url(icon/high-heels.png) no-repeat; background-size: contain; background-position: center;"></span>
+                    <span class="col-8 text">
+                        Каждая наша девушка обладает сногшибательным телом
+                        и потрясающей техникой массажа
+                    </span>
+                </div>
+                <div class="row col-12 col-md-6 text-white mb-5 align-items-center">
+                    <span class="icon mr-3"
+                        style="background: url(icon/wine-glasses.png) no-repeat; background-size: contain; background-position: center;"></span>
+                    <span class="col-8 text">
+                        Каждая наша девушка обладает сногшибательным телом
+                        и потрясающей техникой массажа
+                    </span>
+                </div>
+                <div class="row col-12 col-md-6 text-white mb-5 align-items-center">
+                    <span class="icon mr-3"
+                        style="background: url(icon/carnival-mask-silhouette.png) no-repeat; background-size: contain; background-position: center;"></span>
+                    <span class="col-8 text">
+                        Каждая наша девушка обладает сногшибательным телом
+                        и потрясающей техникой массажа
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION-ITEM -->
+
+    <!-- FORM -->
+    <section class="form"
+        style="background: url(img/back2.png) no-repeat; background-size: cover; background-position: center;">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-1 col-12 col-lg-5 text-white">
+                    <h3>
+                        Оставьте заявку через сайт и получите скидку&nbsp;5%
+                    </h3>
+                    <p>
+                        Для нас очень важна забота о наших гостях. Вся оставляемая вами информация
+                        <strong>строго&nbsp;конфиденциальна</strong>
+                    </p>
+                </div>
+                <form action="" class="col-12 col-lg-5 d-flex flex-column align-items-sm-start justify-content-around">
+                    <input type="text" class="form-control" placeholder="Имя">
+                    <input type="text" class="form-control" placeholder="Номер телефона">
+                    <button type="submit" class="btn btn-outline-light">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- FORM -->
+
+    <!-- SECTION-ITEM -->
+    <section class="section-item">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="text-white">Наши услуги</h2>
+            </div>
+            <div class="section-item-body row text-white offset-lg-1">
+                <div class="col-12 col-lg-6 list">
+                    <p class="title"><span class="span-pink">Стандартный массаж</span></p>
+                    <p class="info">
+                        Душ с массажисткой до и после процедуры<br>
+                        Классический релакс (по желанию)<br>
+                        Эротический массаж
+                    </p>
+                    <p class="price">
+                        Длительность - <span class="span-pink">45 минут</span><br>
+                        Стоимость - <span class="span-pink">35 000</span>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 list">
+                    <p class="title"><span class="span-pink">Поцелуй Мона Лизы</span></p>
+                    <p class="info">
+                        Стандарт <br>
+                        Поцелуи по телу<br>
+                        Горячее, холодное дыхание
+                    </p>
+                    <p class="price">
+                        Длительность - <span class="span-pink">60 минут</span><br>
+                        Стоимость - <span class="span-pink">45 000</span>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 list">
+                    <p class="title"><span class="span-pink">Food-fetish</span></p>
+                    <p class="info">
+                        Стандарт<br>
+                        Эротический Релакс с использованием ступней, пальчиков ног<br>
+                        Поцелуи ног включены(по желанию)
+                    </p>
+                    <p class="price">
+                        Длительность - <span class="span-pink">60 минут</span><br>
+                        Стоимость - <span class="span-pink">50 000</span>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 list">
+                    <p class="title"><span class="span-pink">Комплекс Аква-Боди</span></p>
+                    <p class="info">
+                        Стандарт<br>
+                        «Скрипка» имитация оральных ласк<br>
+                        Релакс ступней горячими полотенцами
+                        Пенно-ванный комплекс с девушкой
+                        Урологический Релакс
+                    </p>
+                    <p class="price">
+                        Длительность - <span class="span-pink">70 минут</span><br>
+                        Стоимость - <span class="span-pink">70 000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <a href="pages/services.html" class="btn btn-outline-danger text-white">посмотреть все услуги</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION-ITEM -->
+
+    <!-- MAP -->
+    <section id="mymap">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abfb9551b0941600fe757b8188e108a484a68b14301fabd5d92db9e49143b640e&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+    <!-- MAP -->
+
+    <!-- SECTION-ITEM -->
+    <section class="section-item">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="text-white">о салоне</h2>
+            </div>
+            <div class="section-item-body row text-white">
+                <div class="col">
+                    <p>
+                        Наш салон это то место, где сбываются мечты. Расслабьтесь и отдохните. Устали от постоянного
+                        стресса?
+
+                    </p>
+                    <p>
+                        Приходите к нам на массаж и забудьте обо всех переживаниях.
+
+                    </p>
+                    <p>
+                        Пора избавиться от негатива эмоций.
+
+                    </p>
+                    <p>
+                        С "Mona Liza" вы отдохнете с пользой для души и тела в окружении великолепных интерьеров. Мы
+                        стремимся учитывать потребности каждого гостя, а также делать спа-процедуры как можно более
+                        приятными и полезными. Ваше здоровье в надежных руках.
+                    </p>
+                    <p>
+                        Массаж после напряженного рабочего дня или занятия спортом, или активного отдыха... это
+                        настоящее удовольствие.
+
+                    </p>
+                    <p>
+                        Однако сеанс массажа это не только приятные ощущения и легкость в теле, это еще и по-настоящему
+                        полезное воздействие на организм человека. Причем, это комплексная польза, ведь массаж влияет на
+                        кожу, подкожножировой слой, нервную и дыхательную системы, мышцы, суставы, сухожилия, а также на
+                        кровеносную и лимфотическую систему.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION-ITEM -->
+
+    <!-- FOOTER -->
+    <footer class="header footer">
+        <div class="container">
+            <div class="header-top row justify-content-between">
+                <div class="col-xl-6 col-lg-4 col-md-3 col-sm-4 col-1">
+                    <a href="/" class="logo"
+                        style="background: url('icon/logo.png') no-repeat; background-size: contain;"></a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-8 row language-block footer-block">
+                    <p> язык:
+                        <a href="" class="active">RU</a> |
+                        <a href="" class="">Eng</a> |
+                        <a href="" class="">KZ</a>
+                    </p>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-5  row phone-block footer-block">
+                    <a href="tel:+77058484444" class="phone">+7 705 848 44 44</a>
+                    <a class="btn btn-outline-danger text-white" data-toggle="modal" data-target="#ModalCenter">Оставить
+                        заявку</a>
+                </div>
+            </div>
+            <nav class="nav row">
+                <a class="nav-link active" href="pages/girls.html">Девушки</a>
+                <a class="nav-link" href="pages/services.html">Цены и акции</a>
+                <a class="nav-link" href="pages/interiers.html">Интерьеры</a>
+                <a class="nav-link" href="pages/vacancies.html">Вакансии</a>
+                <a class="nav-link" href="pages/responses.html">Отзывы</a>
+                <a class="nav-link" href="pages/contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="owl.carousel.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/scroll-lock.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
